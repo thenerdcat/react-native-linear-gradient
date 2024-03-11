@@ -31,6 +31,7 @@ if (isNewArchitectureEnabled()) {
 
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 31).toInteger()
+    namespace = 'com.reputablelabs.reputable.rn.android'
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 21)
         targetSdkVersion safeExtGet('targetSdkVersion', 31)
